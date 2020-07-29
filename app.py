@@ -56,5 +56,4 @@ st.pyplot()
 st.markdown("""
 ## Data
 """)
-df.columns = df.columns.str.strip(' (cm)')
 st.dataframe(df)
